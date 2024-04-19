@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ae4c7bf6b604a01bd327709eb1dc743" Name="Diagram1">
+        <EntityTypeShape EntityType="Model11.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Групповое_посещение" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Группы_посещения" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Заявка_на_посещение" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Личное_посещение" Width="1.5" PointX="10.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Отдел" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Подразделение" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Пользователи" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Пропуск" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Сотрудники" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Статус_заявки" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model11.Черный_список" Width="1.5" PointX="10.5" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="Model11.FK_Групповое_посещение_Группы_посещения" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Групповое_посещение_Пропуск" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Пропуск_Заявка_на_посещение" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Статус_заявки_Заявка_на_посещение" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Личное_посещение_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Личное_посещение_Пропуск" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Сотрудники_Отдел" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Сотрудники_Подразделение" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Черный_список_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="Model11.FK_Статус_заявки_Сотрудники" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

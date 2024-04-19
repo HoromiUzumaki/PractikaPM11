@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Групповое посещение">
+    <Key>
+      <PropertyRef Name="Логин" />
+    </Key>
+    <Property Name="Логин" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Пароль" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Назначение" Type="varchar" MaxLength="100" />
+    <Property Name="Код_пропуска" Type="int" />
+    <Property Name="Код_группы" Type="int" />
+    <Property Name="Код_пользователя" Type="int" />
+  </EntityType>
+  <EntityType Name="Группы посещения">
+    <Key>
+      <PropertyRef Name="Код_группы" />
+    </Key>
+    <Property Name="Код_группы" Type="int" Nullable="false" />
+    <Property Name="Название_группы" Type="varchar" MaxLength="40" />
+    <Property Name="Код_пользователя" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Заявка на посещение">
+    <Key>
+      <PropertyRef Name="Код_заявки" />
+    </Key>
+    <Property Name="Код_заявки" Type="int" Nullable="false" />
+    <Property Name="Начало_срока_действия" Type="date" Nullable="false" />
+    <Property Name="Конец_срока_действия" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Личное посещение">
+    <Key>
+      <PropertyRef Name="Логин" />
+    </Key>
+    <Property Name="Логин" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Пароль" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Назначение" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Код_пользователя" Type="int" Nullable="false" />
+    <Property Name="Код_пропуска" Type="int" />
+  </EntityType>
+  <EntityType Name="Отдел">
+    <Key>
+      <PropertyRef Name="Код_отдела" />
+    </Key>
+    <Property Name="Код_отдела" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Название_отдела" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Подразделение">
+    <Key>
+      <PropertyRef Name="Код_подразделения" />
+    </Key>
+    <Property Name="Код_подразделения" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Название_подразделения" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="Код_пользователя" />
+    </Key>
+    <Property Name="Код_пользователя" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Фамилия" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Имя" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Отчество" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Дата_рождения" Type="date" Nullable="false" />
+    <Property Name="Серия_паспорта" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="Номер_паспорта" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="Номер_телефона" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Фотография" Type="varbinary(max)" />
+    <Property Name="Документы" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Пропуск">
+    <Key>
+      <PropertyRef Name="Код_пропуска" />
+    </Key>
+    <Property Name="Код_пропуска" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код_заявки" Type="int" Nullable="false" />
+    <Property Name="Цель_посещения" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Принимающий_сотрудник" Type="int" />
+  </EntityType>
+  <EntityType Name="Сотрудники">
+    <Key>
+      <PropertyRef Name="Код_сотрудника" />
+    </Key>
+    <Property Name="Код_сотрудника" Type="int" Nullable="false" />
+    <Property Name="Фамилия" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Имя" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Отчество" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Код_отдела" Type="int" />
+    <Property Name="Код_подразделения" Type="int" />
+  </EntityType>
+  <EntityType Name="Статус заявки">
+    <Key>
+      <PropertyRef Name="Код_заявки" />
+    </Key>
+    <Property Name="Статус_заявки" Type="varchar" MaxLength="20" />
+    <Property Name="Код_заявки" Type="int" Nullable="false" />
+    <Property Name="Код_сотрудника_одобрившего_заявку" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Черный_список">
+    <Key>
+      <PropertyRef Name="Код_записи" />
+    </Key>
+    <Property Name="Код_записи" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код_пропуска" Type="int" />
+    <Property Name="Код_пользователя" Type="int" />
+    <Property Name="Статус_записи" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK_Групповое посещение_Группы посещения">
+    <End Role="Группы посещения" Type="Self.Группы посещения" Multiplicity="0..1" />
+    <End Role="Групповое посещение" Type="Self.Групповое посещение" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Группы посещения">
+        <PropertyRef Name="Код_группы" />
+      </Principal>
+      <Dependent Role="Групповое посещение">
+        <PropertyRef Name="Код_группы" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Групповое посещение_Пропуск">
+    <End Role="Пропуск" Type="Self.Пропуск" Multiplicity="0..1" />
+    <End Role="Групповое посещение" Type="Self.Групповое посещение" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пропуск">
+        <PropertyRef Name="Код_пропуска" />
+      </Principal>
+      <Dependent Role="Групповое посещение">
+        <PropertyRef Name="Код_пропуска" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Личное посещение_Пользователи">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="1" />
+    <End Role="Личное посещение" Type="Self.Личное посещение" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="Код_пользователя" />
+      </Principal>
+      <Dependent Role="Личное посещение">
+        <PropertyRef Name="Код_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Личное посещение_Пропуск">
+    <End Role="Пропуск" Type="Self.Пропуск" Multiplicity="0..1" />
+    <End Role="Личное посещение" Type="Self.Личное посещение" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пропуск">
+        <PropertyRef Name="Код_пропуска" />
+      </Principal>
+      <Dependent Role="Личное посещение">
+        <PropertyRef Name="Код_пропуска" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пропуск_Заявка на посещение">
+    <End Role="Заявка на посещение" Type="Self.Заявка на посещение" Multiplicity="1" />
+    <End Role="Пропуск" Type="Self.Пропуск" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Заявка на посещение">
+        <PropertyRef Name="Код_заявки" />
+      </Principal>
+      <Dependent Role="Пропуск">
+        <PropertyRef Name="Код_заявки" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Сотрудники_Отдел">
+    <End Role="Отдел" Type="Self.Отдел" Multiplicity="0..1" />
+    <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Отдел">
+        <PropertyRef Name="Код_отдела" />
+      </Principal>
+      <Dependent Role="Сотрудники">
+        <PropertyRef Name="Код_отдела" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Сотрудники_Подразделение">
+    <End Role="Подразделение" Type="Self.Подразделение" Multiplicity="0..1" />
+    <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Подразделение">
+        <PropertyRef Name="Код_подразделения" />
+      </Principal>
+      <Dependent Role="Сотрудники">
+        <PropertyRef Name="Код_подразделения" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Статус заявки_Заявка на посещение">
+    <End Role="Заявка на посещение" Type="Self.Заявка на посещение" Multiplicity="1" />
+    <End Role="Статус заявки" Type="Self.Статус заявки" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Заявка на посещение">
+        <PropertyRef Name="Код_заявки" />
+      </Principal>
+      <Dependent Role="Статус заявки">
+        <PropertyRef Name="Код_заявки" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Статус заявки_Сотрудники">
+    <End Role="Сотрудники" Type="Self.Сотрудники" Multiplicity="1" />
+    <End Role="Статус заявки" Type="Self.Статус заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудники">
+        <PropertyRef Name="Код_сотрудника" />
+      </Principal>
+      <Dependent Role="Статус заявки">
+        <PropertyRef Name="Код_сотрудника_одобрившего_заявку" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Черный_список_Пользователи">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="0..1" />
+    <End Role="Черный_список" Type="Self.Черный_список" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="Код_пользователя" />
+      </Principal>
+      <Dependent Role="Черный_список">
+        <PropertyRef Name="Код_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Групповое посещение" EntityType="Self.Групповое посещение" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Группы посещения" EntityType="Self.Группы посещения" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Заявка на посещение" EntityType="Self.Заявка на посещение" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Личное посещение" EntityType="Self.Личное посещение" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Отдел" EntityType="Self.Отдел" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Подразделение" EntityType="Self.Подразделение" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пропуск" EntityType="Self.Пропуск" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Сотрудники" EntityType="Self.Сотрудники" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Статус заявки" EntityType="Self.Статус заявки" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Черный_список" EntityType="Self.Черный_список" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Групповое посещение_Группы посещения" Association="Self.FK_Групповое посещение_Группы посещения">
+      <End Role="Группы посещения" EntitySet="Группы посещения" />
+      <End Role="Групповое посещение" EntitySet="Групповое посещение" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Групповое посещение_Пропуск" Association="Self.FK_Групповое посещение_Пропуск">
+      <End Role="Пропуск" EntitySet="Пропуск" />
+      <End Role="Групповое посещение" EntitySet="Групповое посещение" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Личное посещение_Пользователи" Association="Self.FK_Личное посещение_Пользователи">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Личное посещение" EntitySet="Личное посещение" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Личное посещение_Пропуск" Association="Self.FK_Личное посещение_Пропуск">
+      <End Role="Пропуск" EntitySet="Пропуск" />
+      <End Role="Личное посещение" EntitySet="Личное посещение" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пропуск_Заявка на посещение" Association="Self.FK_Пропуск_Заявка на посещение">
+      <End Role="Заявка на посещение" EntitySet="Заявка на посещение" />
+      <End Role="Пропуск" EntitySet="Пропуск" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Сотрудники_Отдел" Association="Self.FK_Сотрудники_Отдел">
+      <End Role="Отдел" EntitySet="Отдел" />
+      <End Role="Сотрудники" EntitySet="Сотрудники" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Сотрудники_Подразделение" Association="Self.FK_Сотрудники_Подразделение">
+      <End Role="Подразделение" EntitySet="Подразделение" />
+      <End Role="Сотрудники" EntitySet="Сотрудники" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Статус заявки_Заявка на посещение" Association="Self.FK_Статус заявки_Заявка на посещение">
+      <End Role="Заявка на посещение" EntitySet="Заявка на посещение" />
+      <End Role="Статус заявки" EntitySet="Статус заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Статус заявки_Сотрудники" Association="Self.FK_Статус заявки_Сотрудники">
+      <End Role="Сотрудники" EntitySet="Сотрудники" />
+      <End Role="Статус заявки" EntitySet="Статус заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Черный_список_Пользователи" Association="Self.FK_Черный_список_Пользователи">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Черный_список" EntitySet="Черный_список" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

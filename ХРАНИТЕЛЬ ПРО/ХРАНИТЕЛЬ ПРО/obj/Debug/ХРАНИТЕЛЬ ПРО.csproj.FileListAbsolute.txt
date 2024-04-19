@@ -1,0 +1,80 @@
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.exe.config
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.exe
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.pdb
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.dll
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.xml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.AssemblyReference.cache
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\MainWindow.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Главное_окно.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Групповое посещение.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\App.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_Content.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_MarkupCompile.cache
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_MarkupCompile.lref
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\MainWindow.baml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Главное_окно.baml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Групповое посещение.baml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.g.resources
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ_ПРО.Properties.Resources.resources
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.GenerateResource.cache
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.CoreCompileInputs.cache
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛ.0D72EFF4.Up2Date
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.exe
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.pdb
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\SinglePos.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\SinglePos.baml
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Prosmotr_zayavok.g.cs
+C:\Users\Horomi_tyan\Desktop\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Prosmotr_zayavok.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.exe.config
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.exe
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ХРАНИТЕЛЬ ПРО.pdb
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.AssemblyReference.cache
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\MainWindow.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Prosmotr_zayavok.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\SinglePos.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Главное_окно.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Групповое посещение.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\App.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_Content.g.cs
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_MarkupCompile.cache
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО_MarkupCompile.lref
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\MainWindow.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Prosmotr_zayavok.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\SinglePos.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Главное_окно.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\Групповое посещение.baml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.g.resources
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ_ПРО.Properties.Resources.resources
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.GenerateResource.cache
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.csproj.CoreCompileInputs.cache
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛ.0D72EFF4.Up2Date
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.exe
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\obj\Debug\ХРАНИТЕЛЬ ПРО.pdb
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\Microsoft.OData.Edm.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Buffers.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Memory.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Text.Json.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.ValueTuple.dll
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\Microsoft.OData.Edm.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Buffers.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Memory.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Text.Json.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Horomi_tyan\Desktop\ПМ 11\ХРАНИТЕЛЬ ПРО\ХРАНИТЕЛЬ ПРО\bin\Debug\System.ValueTuple.xml

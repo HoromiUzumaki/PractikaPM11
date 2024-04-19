@@ -1,0 +1,20 @@
+﻿<Window x:Class="ОбщийОтдел.ViewOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ОбщийОтдел"
+        mc:Ignorable="d"
+            Title="Просмотр заявок" Height="450" Width="1100">
+    <Grid>
+        <Rectangle x:Name="rec"  Margin="0,15,0,372" Stroke="Orange"  RadiusX="15" RadiusY="15" Fill="Orange"/>
+        <Label Content="Просмотр заявок" HorizontalAlignment="Left" Margin="453,15,0,0" VerticalAlignment="Top" Width="214" FontSize="20" FontWeight="Bold" Height="38"/>
+        <DataGrid x:Name="data"  Margin="34,78,50,56"/>
+        <Button Content="Посмотреть заявки" HorizontalAlignment="Left" Margin="162,383,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" Width="148" Click="Button_Click"/>
+        <Button Content="Фи-ция по подразделению" HorizontalAlignment="Left" Margin="324,383,0,0" VerticalAlignment="Top" Width="182" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_1"/>
+
+        <Button Content="Фи-ция по статусу" HorizontalAlignment="Left" Margin="520,383,0,0" VerticalAlignment="Top" Width="161" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_3"/>
+        <Button Content="Изменить статус заявки" HorizontalAlignment="Left" Margin="704,383,0,0" VerticalAlignment="Top" Width="161" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

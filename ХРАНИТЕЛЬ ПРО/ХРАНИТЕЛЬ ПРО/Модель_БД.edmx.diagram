@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bd72639cca0e4a9eb71df6b5906c8385" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="Модель_БД.Групповое_посещение" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Группы_посещения" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Заявка_на_посещение" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Личное_посещение" Width="1.5" PointX="10.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Отдел" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Подразделение" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Пользователи" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Пропуск" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Сотрудники" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Модель_БД.Статус_заявки" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="Модель_БД.FK_Групповое_посещение_Группы_посещения" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Групповое_посещение_Пропуск" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Пропуск_Заявка_на_посещение" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Статус_заявки_Заявка_на_посещение" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Личное_посещение_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Личное_посещение_Пропуск" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Сотрудники_Отдел" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Сотрудники_Подразделение" ManuallyRouted="false" />
+        <AssociationConnector Association="Модель_БД.FK_Статус_заявки_Сотрудники" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

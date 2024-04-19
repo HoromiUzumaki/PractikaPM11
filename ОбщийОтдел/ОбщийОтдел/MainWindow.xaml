@@ -1,0 +1,16 @@
+﻿<Window x:Class="ОбщийОтдел.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ОбщийОтдел"
+        mc:Ignorable="d"
+           Title="Авторизация" Height="150" Width="400">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="30" Margin="33,10,0,0" Stroke="Orange" Fill="Orange" RadiusX="8" RadiusY="8" VerticalAlignment="Top" Width="330"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="148,11,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Код сотрудника:" HorizontalAlignment="Left" Margin="48,58,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="Кодсотр" HorizontalAlignment="Left" Margin="165,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="19"/>
+        <Button x:Name="Вход" Content="Войти" HorizontalAlignment="Left" Margin="48,94,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="25" Width="300" FontSize="16" Click="Вход_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="ХРАНИТЕЛЬ_ПРО.Главное_окно"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ХРАНИТЕЛЬ_ПРО"
+        mc:Ignorable="d"
+        Title="Главное_окно" Height="350" Width="600">
+    <Grid>
+        <Button Content="Личное посещение" HorizontalAlignment="Left" Margin="87,241,0,0" VerticalAlignment="Top" Width="147" Height="27" Click="Button_Click_1"/>
+        <Button Content="Групповое посещение" HorizontalAlignment="Left" Margin="311,241,0,0" VerticalAlignment="Top" Width="200" Height="27" Click="Button_Click"/>
+        <Image HorizontalAlignment="Left" Height="133" Margin="103,87,0,0" VerticalAlignment="Top" Width="117" Source="/личноепосещение.png"/>
+        <Image HorizontalAlignment="Left" Height="162" Margin="326,69,0,0" VerticalAlignment="Top" Width="170" Source="/групповое посещение.png"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="87,82,366,103"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="311,82,89,103"/>
+
+    </Grid>
+</Window>

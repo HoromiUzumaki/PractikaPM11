@@ -1,0 +1,19 @@
+﻿<Window x:Class="ОбщийОтдел.ChangeStatus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ОбщийОтдел"
+        mc:Ignorable="d"
+        Title="Изменение статуса заявки" Height="200" Width="300">
+    <Grid>
+        <Label Content="Выберите код заявки:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,24,0,0" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <ComboBox x:Name="orderComboBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,48,0,0" Width="200"/>
+
+        <Label Content="Выберите новый статус:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,80,0,0" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <ComboBox x:Name="statusComboBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,104,0,0" Width="200"/>
+
+        <Button Content="Сохранить" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,140,0,0" Width="100" Click="SaveButton_Click" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
